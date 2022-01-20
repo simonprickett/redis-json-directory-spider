@@ -1,13 +1,41 @@
 {
+  "name": "redis-json-directory-spider",
+  "displayName": "RedisJson Directory Spider",
+  "version": "0.0.2",
+  "description": "Spiders a directory tree containing JSON files and writes their contents to Redis using RedisJSON.",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "Simon Prickett",
+    "url": "https://github.com/simonprickett"
+  },
+  "bugs": {
+    "url": "https://github.com/simonprickett/redis-json-directory-spider/issues"
+  },
+  "repository": {
+    "url": "https://github.com/simonprickett/redis-json-directory-spider.git",
+    "type": "git"
+  },
+  "type": "module",
+  "main": "./out/spider.js",
+  "types": "./out/typings/spider.d.ts",
   "dependencies": {
     "@types/node": "^17.0.10",
     "redis": "^4.0.2",
     "ts-node": "^10.4.0"
   },
-  "type": "module",
   "devDependencies": {
     "prettier": "^2.5.1",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4"
-  }
+  },
+  "keywords": [
+    "REDIS",
+    "JSON",
+    "RedisJson",
+    "Directory",
+    "Spider",
+    "utility",
+    "tool"
+  ]
 }
